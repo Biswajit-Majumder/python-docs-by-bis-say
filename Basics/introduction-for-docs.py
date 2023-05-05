@@ -81,3 +81,6 @@ print("Hello, World!")
 # print() is a function that takes a string as an argument and prints it on the screen
 # a string is a sequence of characters enclosed in single or double quotes
 # print() is a built-in function in python
+
+
+# and why we should be talking like this 
