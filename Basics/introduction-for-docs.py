@@ -59,7 +59,12 @@
 
 # first write this instruction into your text editor 
 
-print("Hello, World!")
+print("Hello, World!")  
+
+# as we made our hello world programme let's write a little comment to make it more memorable 
+
+# so what is a comment 
+# In programming, a comment is a piece of text that is added to the source code of a program to provide additional information or to explain the purpose of the code. Comments are ignored by the compiler or interpreter, so they do not affect the behavior of the program.
 
 # now write the smallest expression 
 # 2 + 2 
@@ -96,11 +101,13 @@ print("Hello, World!")
 # so what is a variable ?
 
 
+
 # to make a veriable we have to give it a name and we will give it a value
+# python is case sensitive  keep in that mind
 
 variable_name = "value"
 
-# the things  "value"
+# the things  "value" 
 
 
 
@@ -152,3 +159,89 @@ print("The changed value is a =", example_value_1, "b =", example_value_2)
 # - A variable name can only contain alpha-numeric characters and underscores (A-z, 0-9, and _ ).
 # - Variable names are case-sensitive (age, Age and AGE are three different variables).
 # """
+
+#
+
+
+
+
+
+# Python Numbers
+# There are three numeric types in Python:
+# - Integers
+# - Floating point numbers
+# - Complex numbers
+
+# Variables of numeric types are created when you assign a value to them:
+# - Integers: x = 5
+# - Floats: x = 5.0
+# - Complex: x = 1j
+# """
+
+# Python Casting
+
+# Specify a Variable Type
+# There may be times when you want to specify a type on to a variable.
+# This can be done with casting. Python is an object-orientated language,
+# and as such it uses classes to define data types, including its primitive types.
+
+
+# Casting in python is therefore done using constructor functions:
+# - int(x)
+# - float(x)
+# - str(x)
+
+
+# Python Strings
+# Strings in python are surrounded by either single quotation marks, or double quotation marks.
+# 'hello' is the same as "hello".
+# """
+
+# You can display a string literal with the print() function:
+# print("Hello")
+# now let's talk about the print funtion.... ok now you can have a question that what is this function ? 
+
+# so in simple terms function is a block of code that performs specific task
+# the python print is a king of function that prints the desired output for us it can be string litrals , any variable, any numeric value or any anything 
+# keep in that mind in print function if we put something between double quote ("Somethng-can-be-anything") then it will print as it is.
+# but if we put something without double quote then it will try to find a variable with that name and print it's value
+# for example
+# print("Hello") # it will print Hello
+# print(Hello) # it will try to find a variable named Hello and print it's value
+
+# python print funciton is really powerful it can print many things together and the level of flexibility is also astonishing 
+# for example
+# print("Hello", "World") # it will print Hello World and there is  a ' ' separator between every object it is given by the python function and it changes the to new line when at the of the print we can put any thing between
+
+
+
+# Multiline Strings
+
+# You can assign a multiline string to a variable by using three quotes:
+# """
+# You can use three double quotes:
+# """
+# or three single quotes:
+# '''
+# """
+
+# Strings are Arrays
+# Like many other popular programming languages, strings in Python are arrays of bytes representing unicode characters.
+# However, Python does not have a character data type, a single character is simply a string with a length of 1.
+
+# Square brackets can be used to access elements of the string.
+# Get the character at position 1 (remember that the first character has the position 0):
+# a = "Hello, World!"
+# print(a[1])
+
+
+# to check the data type we use type function 
+
+# example 
+# var1 = 13221
+# print(type(var1)) // it will show integer 
+
+
+
+
+#! conditions
