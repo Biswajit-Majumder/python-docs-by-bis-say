@@ -81,6 +81,74 @@ print("Hello, World!")
 # print() is a function that takes a string as an argument and prints it on the screen
 # a string is a sequence of characters enclosed in single or double quotes
 # print() is a built-in function in python
+# a function is a block of code that performs a specific task
+# print() is a function that prints a string on the screen
 
 
-# and why we should be talking like this 
+# ok now lets learn python variables 
+# question number one 
+# make a programme that swap two values
+
+# so to tackle this question we have to have 2 values lets assume one is 69 and another is 420 ...
+# now the question is how we are going to identify and access this values ... to solve this problem we have variable 
+# we can store values inside a varirable and use modify in whatever way we want
+
+# so what is a variable ?
+
+
+# to make a veriable we have to give it a name and we will give it a value
+
+variable_name = "value"
+
+# the things  "value"
+
+
+
+
+
+example_value_1 = 69
+example_value_2 = 420
+
+# we made two variables example_variable_1 and example_variable_2 and gave them 69 and 420 values respectivly ..... now we can swap them very easily 
+
+# there are many ways to do this problem but we are going to see only 2 of them on is with a third variable and another is arithmetically 
+# 
+# lets make a third variable to store any on of the value 
+temp_swapping_var = example_value_1
+# now change the value of a variable
+example_value_1 = example_value_2
+# then get the value from the temp vairable to the second variable
+example_value_2 = example_value_1
+#  
+
+
+# now lets do it in another way
+# we can do in in using arithmetic operations 
+
+# first we have to add the two values and store it in the first variable
+example_value_1 = example_value_1 + example_value_2
+# now we have to subtract the second value from the first value and store it in the second variable
+example_value_2 = example_value_1 - example_value_2
+# now we have to subtract the second value from the first value and store it in the first variable
+example_value_1 = example_value_1 - example_value_2
+
+
+print("The changed value is a =", example_value_1, "b =", example_value_2)
+
+# Python is completely object oriented, and not "statically typed".
+# You do not need to declare variables before using them, or declare
+# their type. Every variable in Python is an object.
+
+# Unlike other programming languages, Python has no command for
+# declaring a variable. A variable is created the moment you first assign
+# a value to it.
+
+# A variable can have a short name (like x and y) or a more descriptive name
+# (age, carname, total_volume).
+
+# Rules for Python variables:
+# - A variable name must start with a letter or the underscore character.
+# - A variable name cannot start with a number.
+# - A variable name can only contain alpha-numeric characters and underscores (A-z, 0-9, and _ ).
+# - Variable names are case-sensitive (age, Age and AGE are three different variables).
+# """
