@@ -1,15 +1,32 @@
 # python 
 
 
-#  Python is a high level( high level languages are those languages thar are easily understandable and readable for programmers and uses natural language construcs and abstructions to hide low level details ) , interpret ( that gets executed by interpreter means there is no compiler to complie the code before hence can be used to see results real time executes programme line by line ) , interactive () , object oriented , open sourced programming language.
+#  Python is a high level( high level languages are those languages that are easily understandable and readable for programmers and uses natural language construcs and abstructions to hide low level details ) , interpret ( that gets executed by interpreter means there is no compiler to complie the code before hence can be used to see results real time executes programme line by line ) , interactive () , object oriented , open sourced , general purpose programming language.
 
-# It was created by Guido van Rossum, and released in 1991.
 
-# Python relies on indentation, using whitespace, to define scope; such as the scope of loops, functions and classes. Other programming languages often use curly-brackets for this purpose.
+
+x = 10
+y = 10
+
+
+if (x is not y):
+    print("x is not y")
+else:
+    print("x is y")
+
+
+# It was created by Guido van Rossum, and released in 1991. 
+
+
+#! Python relies on indentation, using whitespace, to define scope; such as the scope of loops, functions and classes. Other programming languages often use curly-brackets for this purpose.
+
+
+
 
 #  Python is designed to be highly readable.
 #  It uses English keywords frequently where as other languages use punctuation , and it has fewer syntactical constructions than other languages.
 #  Python is a MUST for students and working professionals to become a great Software Engineer specially when they are working in Web Development Domain.
+
 #  Python is a programming language that lets you work quickly and integrate systems more efficiently.
 #  There are two major Python versions Python 2 and Python 3. Both are quite different.
 #  Python 2.x is legacy , Python 3.x is the present and future of the language.
@@ -33,7 +50,9 @@
 
 
 
+
 # python is a dynamically types language that ..... here answer dynamically typed vs static stype
+
 
 
 
@@ -64,22 +83,32 @@ print("Hello, World!")
 # as we made our hello world programme let's write a little comment to make it more memorable 
 
 # so what is a comment 
+
 # In programming, a comment is a piece of text that is added to the source code of a program to provide additional information or to explain the purpose of the code. Comments are ignored by the compiler or interpreter, so they do not affect the behavior of the program.
 
 # now write the smallest expression 
 # 2 + 2 
 
 
+# Warning!
+# An “octothorpe” is also called a “pound”, “hash”, “mesh”, or any number of names. Pick the one that makes you chill out.
+
+
 # why python is popular 
+
 # 1 for it's design philosophy ( readability , well indented )
 # 2 batteries included <fun turm> ( many function are already there to do the tasks smoothly we don't have to re-invent the wheel they are abstructed away by python inbuilt  --- )
+
 # 3 free and open source ( python is free and open source and it's community is very large and active )
+
 # 4 portability ( python is portable means it can be run on any platform like windows , linux , mac , raspberry pi etc. )
+
 # 5 general purpose ( supports many programming paradigms we can make many things )
 
 
 
 # python is case sensitive
+
 
 # now let's understand what we are doing here 
 # we are using a function called print() to print something on the screen
@@ -106,6 +135,8 @@ print("Hello, World!")
 # python is case sensitive  keep in that mind
 
 variable_name = "value"
+
+variable_name
 
 # the things  "value" 
 
@@ -162,7 +193,7 @@ print("The changed value is a =", example_value_1, "b =", example_value_2)
 
 #
 
-
+_aaraia_1 = 1
 
 
 
@@ -171,12 +202,20 @@ print("The changed value is a =", example_value_1, "b =", example_value_2)
 # - Integers
 # - Floating point numbers
 # - Complex numbers
+# - string / text
 
 # Variables of numeric types are created when you assign a value to them:
-# - Integers: x = 5
-# - Floats: x = 5.0
-# - Complex: x = 1j
+
+
+# - Integers: 
+x = 5
+# - Floats: 
+x = 5.0
+# - Complex: 
+x = 1j
 # """
+
+
 
 # Python Casting
 
@@ -242,6 +281,326 @@ print("The changed value is a =", example_value_1, "b =", example_value_2)
 # print(type(var1)) // it will show integer 
 
 
+# assigning multiple variables 
+var1, var2, var3 = "value1", "value2", "value3"
+
+# we can also assign same value to multiple variables
+var1 = var2 = var3 = "value"
+
+# we can also assign multiple values to multiple variables
+cities = ["Kolkata", "London", "Las Vegas"]
+
+first_city , second_city , third_city = cities
+
+print(f"First we will visit {first_city}, then {second_city}, {third_city}")
 
 
 #! conditions
+
+
+# let's understand operators in python 
+
+# there are many types of operators in python
+# 1. Arithmetic operators
+# 2. Assignment operators
+# 3. Comparison operators
+# 4. Logical operators
+# 5. Identity operators
+
+# 6. Membership operators
+# 7. Bitwise operators
+# 8. Augmented assignment operators
+# 9. Special operators
+
+# 1. Arithmetic operators
+# Arithmetic operators are used to perform mathematical operations like addition, subtraction, multiplication, etc.
+# Here are the arithmetic operators in python
+# +	Addition	x + y
+# -	Subtraction	x - y
+# *	Multiplication	x * y
+# /	Division	x / y
+# %	Modulus	x % y
+# **	Exponentiation	x ** y
+# / /	Float division	x // y
+x = 10 
+y = 100
+# 5 % 2 -> 1
+print(x // y )
+
+5 ** 2  
+
+
+# 2. Assignment operators
+# Assignment operators are used to assign values to the variables.
+# Here are the assignment operators in python
+# =	x = 5	x = 5
+x += 5 ;	x = x + 5
+# -=	x -= 5	x = x - 5
+# *=	x *= 5	x = x * 5
+# /=	x /= 5	x = x / 5
+# %=	x %= 5	x = x % 5
+
+
+# / /=	x //= 5	x = x // 5
+# **=	x **= 5	x = x ** 5
+
+
+
+
+# not much used assignment operators
+# &=	x &= 5	x = x & 5
+# |=	x |= 5	x = x | 5
+# ^=	x ^= 5	x = x ^ 5
+# >>=	x >>= 5	x = x >> 5
+# <<=	x <<= 5	x = x << 5
+
+
+
+# 3. Comparison operators
+# Comparison operators are used to compare two values.
+# Here are the comparison operators in python
+# ==	Equal	x == y
+# !=	Not equal	x != y
+# >	Greater than	x > y
+# <	Less than	x < y
+# >=	Greater than or equal to	x >= y
+# <=	Less than or equal to	x <= y
+
+
+
+
+# 4. Logical operators
+# Logical operators are used to combine conditional statements.
+# Here are the logical operators in python
+# and	Returns True if both statements are true	x < 5 and  x < 10
+# or	Returns True if one of the statements is true	x < 5 or x < 4
+# not	Reverse the result, returns False if the result is true	not(x < 5 and x < 10)
+
+
+newVar = 0
+
+
+
+# while not False:
+#     print("Hello")
+#     newVar += 1
+#     if newVar is 100:
+#         newVar = "Hello"
+#         if newVar is "Hello":
+#             break
+
+
+condition1 = True
+condition2 = False
+not condition1   #False
+condition1 and condition2 #False
+condition1 or condition2 #True
+
+
+
+
+
+
+
+# 5. Identity operators
+# Identity operators are used to compare the objects, not if they are equal, but if they are actually the same object, with the same memory location.
+# Here are the identity operators in python
+# is	Returns True if both variables are the same object	x is y
+# is not	Returns True if both variables are not the same object	x is not y
+
+x = ["apple", "banana"]   #  object   1
+y = ["apple", "banana"]   #  object   2
+
+print( " are they same " ,x is not y)
+
+
+print( False and True)
+
+
+# x is y	x is y
+# x is not y	x is not y
+# x is y	x is y
+# x is not y	x is not y
+# x is y	x is y
+# x is not y	x is not y
+
+
+
+# 6. Membership operators
+# Membership operators are used to test if a sequence is presented in an object.
+# Here are the membership operators in python
+# in	Returns True if a sequence with the specified value is present in the object	x in y
+# not in	Returns True if a sequence with the specified value is not present in the object	x not in y
+# x in y	x in y
+# x not in y	x not in y
+# x in y	x in y 
+# x not in y	x not in y
+# x in y	x in y
+# x not in y	x not in y
+# x in y	x in y
+# x not in y	x not in y
+# x in y	x in y
+# x not in y	x not in y
+# x in y	x in y
+# x not in y	x not in y
+# x in y	x in y
+# x not in y	x not in y
+
+# 7. Bitwise operators
+# Bitwise operators are used to compare (binary) numbers:
+# Here are the bitwise operators in python
+# & 	AND	Sets each bit to 1 if both bits are 1
+# |	OR	Sets each bit to 1 if one of two bits is 1
+# ^	XOR	Sets each bit to 1 if only one of two bits is 1
+# ~ 	NOT	Inverts all the bits
+# <<	Zero fill left shift	Shift left by pushing zeros in from the right and let the leftmost bits fall off
+# >>	Signed right shift	Shift right by pushing copies of the leftmost bit in from the left, and let the rightmost bits fall off
+# x & y	x & y
+# x | y	x | y
+# x ^ y	x ^ y
+# ~x	~x
+# x << y	x << y
+# x >> y	x >> y
+# x & y	x & y
+# x | y	x | y
+# x ^ y	x ^ y
+# ~x	~x
+
+
+# 8. Operator precedence
+# Operator precedence describes the order in which operations are performed in an arithmetic expression.
+# Here are the operator precedence in python
+# Operator	Description	Example
+# ()	Parentheses	(3 + 2) * 6
+# **	Exponentiation	2 ** 3
+# +x, -x, ~x	Unary plus, Unary minus, Bitwise NOT	+x, -x, ~x
+# *, /, //, %	Multiplication, Division, Floor division, Modulus	2 * 3 / 4
+# +, -	Addition, Subtraction	2 + 3 - 4
+# <<, >>	Bitwise shift operators	2 << 3
+# &	Bitwise AND	2 & 3
+# ^	Bitwise XOR	2 ^ 3
+# |	Bitwise OR	2 | 3
+# ==, !=, >, >=, <, <=, is, is not, in, not in	Comparisons, Identity, Membership operators	2 == 3
+
+
+
+
+# ! type convertion does not change the real thing it returns a new object
+x = 21
+
+
+def string_to_int_conv(obj):
+    return int(obj)
+
+
+
+newVAr = int(x)
+
+print(type(x))
+
+# how in and not in operators in python work?
+
+
+# now lets learn about the modules 
+# so whar are modules 
+# modules are the python files that contain python code that have been written by other peoples so that we can use them and we don't have to make those things from scratch
+# we can import modules in our python code and use them
+# we can also create our own modules and use them in our code
+
+
+# it helps us and saves a lot of time. And that's why we use python 
+
+# so how to import modules in python
+# we use import keyword to import modules in python
+
+# import math
+
+
+
+import random
+# help('modules') 
+
+
+
+# print(random.randint(2, 100))
+
+
+# print(random.randint(1, 100),random.randint(1, 19))
+
+
+# make a funciton that adds two int number 
+
+
+def adder( ram , jadu ): # parameter neoya byabsa
+    return ram + jadu
+    
+
+
+adder( 2 , 9 ) # arguments  deoya byabsa
+
+
+
+
+
+# Now let's start loops 
+
+
+# What is loop
+# A loop is a sequence of instructions that is continually repeated until a certain condition is reached.
+# Loops are used to repeat a block of code.
+
+
+
+# where do we use loops
+# we use loops when we want to repeat a block of code
+# let's try to write a loop in python
+# there are two types of loop in python 
+# 1. for loop
+# 2. while loop
+
+
+
+# first lets check while loop 
+
+
+# while 
+# As the name suggest we will run something while the condition us beging full-filled 
+# and when the condition will not meet at that time the while loop while stop 
+
+# lets take an example 
+
+# you have a cart and there are some thing 
+
+# we want to print table of any number 
+
+
+# number = int( input("Enter any number here") )
+
+# i = 1
+
+# while i <= 10:
+#     print( f"{number} * {i} =", number * i)
+#     i += 1 
+
+
+
+
+
+# for loop
+# for loop is used to iterate over a sequence (that is either a list, a tuple, a dictionary, a set, or a string).
+# the for loop is different than other language for loop and it's really powerful ... 
+
+
+
+
+
+# for i in range(1,11): # internally it is like this for i in 1,2,3,4,5,6,7,8,9,10
+#     print(i)
+
+# the range(1,11)  the first is included and the second on is excluded
+
+
+
+
+
+# the current population of Mathur is 1000 people. And it is increasing 10% every year 
